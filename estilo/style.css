@@ -26,6 +26,7 @@ h1 {
 
 header > p {
     padding-bottom: 20px;
+    font-size: 1.2em;
 }
 
 header > p > a {
@@ -50,6 +51,14 @@ article {
     padding-left: 20px;
     line-height: 2em;
     font-size: 3.5vw;
+}
+
+.principal > p {
+    margin-bottom: 60px;
+}
+
+.parallax1, .parallax2 {
+    margin-top: -50px;
 }
 
 .parallax1 > p, .parallax2 > p {
