@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Passion One', sans-serif;
+    padding: 20px;
+    font-size: 3em;
+}
+
+header > p {
+    padding-bottom: 20px;
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main {
+    font-family: sriracha, sans-serif;
+    background-color: white;
+}
+
+article {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20px;
+    line-height: 2em;
+    font-size: 3.5vw;
+}
+
+.parallax1 > p, .parallax2 > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    padding: 10px;
+    text-shadow: 1px 1px black;
+}
+
+.parallax1 {
+    background: url(../imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.521);
+}
+
+.parallax2 {
+    background: url(../imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.521);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
